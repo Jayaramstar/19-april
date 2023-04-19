@@ -43,16 +43,22 @@ print(area1)
 print(area2)
 print(area3)
 #swap 3 in ascending
-a=int(input("enter the first:"))
-b=int(input("enter the second:"))
-c=int(input("enter the third:"))
-if(a>b and a>c):
-print(a)
-elif(b>a and b>c)
-print(b)
-else
-print(c)
-if
+a = float(input("Enter a: "))
+b = float(input("Enter b: "))
+c = float(input("Enter c: "))
+if a > c:
+    a = a + c
+    c = a - c
+    a = a - c  
+if a > b:
+    a = a + b
+    b = a - b
+    a = a - b
+if b > c:
+    b = b + c
+    c = b - c
+    b = b - c
+print (a, "<", b, "<", c)
 
 
 
