@@ -7,6 +7,8 @@ for i in range(1,x+1)
      
 #palindrome in python
 num=int(input("enter anumber:")
+rev=0
+rem=0
 while(num!=0):
 num=num%10
 rev=rev*10+rem
@@ -16,3 +18,15 @@ print("it is palkindrome")
 else
 print("not a palindrome")
       
+#armstrong number
+num=int(input("enter anumber:")
+sum=0
+rem=0
+while(num!=0):
+num=num%10
+sum=sum+rem*rem*rem
+num=num/10
+if(num==sum)
+print("it is armstrong")
+else
+print("not a armstrong")
